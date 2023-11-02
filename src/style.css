@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: black;
+  font-family: sans-serif;
+}
+p#number {
+  text-align: center;
+  color: white;
+  font-size: 150px;
+}
+button {
+  width: 180px;
+  margin: 10px;
+  border: 1px solid #fff;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #fff;
+  opacity: 0.5;
+  font-size: xx-large;
+}
+button:first-of-type {
+  border-color: red;
+}
+button:last-of-type {
+  border-color: green;
+}
+button:hover {
+  color: goldenrod;
+  opacity: 1;
+}
